@@ -9,9 +9,6 @@
 if v:version < 700
   finish
 endif
-if !has('gui_running')
-  finish
-endif
 
 if !exists('g:colorsel_swatch_text')
   let g:colorsel_swatch_text = 'The quick brown fox jumps over the lazy dog.'
